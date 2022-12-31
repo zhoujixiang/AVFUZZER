@@ -1,0 +1,57 @@
+{
+    "hdmap": "SanFrancisco",
+    "npc_num": 2 ,
+    "weather_num":6,
+    "ego_spawn":{
+        "type":"unity",
+        "x":30.6019134521484,
+        "y":10.2880001068115,
+        "z":-291.620971679688
+    },
+    "destination": {
+        "type": "unity",
+        "x": -380.489471435547,
+        "y": 0,
+        "z": 91.4307479858398
+    },
+    "time_size":30,
+    "time_slice":6,
+    "chromsome":{
+        "weather": [
+            {
+                "var":"rain",
+                "range":[0,0]
+            },{
+                "var":"fog",
+                "range":[0,0]
+            },{
+                "var":"wetness",
+                "range":[0,0]
+            },{
+                "var":"cloudiness",
+                "range":[0,0]
+            },{
+                "var":"damage",
+                "range":[0,0]
+            },{
+                "var":"daytime",
+                "range":[10,12]
+            }
+    ],
+        "npc": {
+            "spawn_dis":{
+                "lateral":[-1,1],
+                "longitudinal":[-40,-20]
+
+            },
+            "npc_space": {
+            
+                "speed_range":[20,60],
+                "action_range":[0,5]
+            },
+            "action":["leftChange","rightChange","multiple_lane_right","multiple_lane_left","e_stop","NULL"]
+            
+},
+        "pedestrian": []
+    }
+}

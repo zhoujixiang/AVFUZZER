@@ -1,0 +1,16 @@
+{
+    "scenario": "straight_road.json",
+    "searchMethod":{
+        "methed":"ga",
+        "mutation":0.4,
+        "crossover":0.6
+
+    },
+    "pop_num": 12,
+    "simLength": 0.5,
+    "npc_num":4,
+    "termination": {
+        "type": "generation",
+        "value": 10
+    }
+}
